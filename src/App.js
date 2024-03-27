@@ -27,6 +27,7 @@ import { Signup } from './Component/signup/Signup';
 import { Protector } from './Component/protector';
 import Forget from './Component/signup/Forget';
 import { Profile } from './Component/profile/Profile';
+import { Qrcode } from './Component/qrcode/Qrcode';
 
 
 
@@ -83,6 +84,9 @@ function App() {
         </Route>
         <Route path="/forget">
           <Forget />
+        </Route>
+        <Route path="/qrcode">
+          <Qrcode/>
         </Route>
       </Switch>
       {/* <Footer/> */}

@@ -1,7 +1,7 @@
 import React from "react";
+// import QRCode from "react-qr-code";
 import QRCode from "react-qr-code";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
-
 
 export const Footer = () => {
   const history = useHistory();
@@ -126,7 +126,7 @@ export const Footer = () => {
                                         GYM &amp; Yoga
                                     </li>
                                 </ul> */}
-                <div
+                {/* <div
                   style={{
                     height: "auto",
                     maxWidth: 200,
@@ -143,6 +143,11 @@ export const Footer = () => {
                     value={"https://royal-user-qocr.vercel.app/"}
                     viewBox={`0 0 256 256`}
                   />
+                </div> */}
+                <div>
+                  {/* <h1>Qr code jenerator</h1> */}
+                  <QRCode value="royal-user-qocr-5sl5r1iae-jensi27s-projects.vercel.app" />
+                  {/* <QRCode value="Feedback"/> */}
                 </div>
               </div>
             </div>
