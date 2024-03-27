@@ -720,3 +720,12 @@
   padding-right: 0;
   border-right: none;
 }
+
+@media (max-width : 426px) {
+  .navbar-nav {
+    background-color: #1d2434 !important;
+  }
+  .logo{
+    width: 30%;
+  }
+}

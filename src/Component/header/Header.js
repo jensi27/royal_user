@@ -9,7 +9,6 @@ export const Header = () => {
   const handleScroll = () => {
     if (window.scrollY > 0) {
       setIsScrolled(true);
-
     } else {
       setIsScrolled(false);
     }
@@ -77,7 +76,7 @@ export const Header = () => {
               data-bs-toggle="collapse"
               data-bs-target="#navbarCollapse"
             >
-              <span className="navbar-toggler-icon"  />
+              <span className="navbar-toggler-icon" />
             </button>
             <div
               className="collapse navbar-collapse justify-content-end"
@@ -85,56 +84,48 @@ export const Header = () => {
             >
               <ul className="navbar-nav mr-auto py-0">
                 <li
-                  
                   onClick={() => history.push("/")}
                   className="nav-item nav-link"
                 >
                   Home
                 </li>
                 <li
-                  
                   onClick={() => history.push("/About")}
                   className="nav-item nav-link"
                 >
                   About
                 </li>
                 <li
-                  
                   onClick={() => history.push("/Service")}
                   className="nav-item nav-link"
                 >
                   Services
                 </li>
                 <li
-                 
                   onClick={() => history.push("/Room")}
                   className="nav-item nav-link"
                 >
                   Rooms
                 </li>
                 <li
-                 
                   onClick={() => history.push("/team")}
                   className="nav-item nav-link"
                 >
                   Our Team
                 </li>
                 <li
-                  
                   onClick={() => history.push("/gallery")}
                   className="nav-item nav-link"
                 >
                   Gallery
                 </li>
                 <li
-                  
                   onClick={() => history.push("/Restaurant")}
                   className="nav-item nav-link"
                 >
                   Restaurant
                 </li>
                 <li
-                  
                   onClick={() => history.push("/Contact")}
                   className="nav-item nav-link"
                 >
@@ -143,7 +134,6 @@ export const Header = () => {
                 <li
                   className="contact"
                   onClick={() => history.push("/profile")}
-                 
                 >
                   <i className="fa fa-user-circle" />
                 </li>

@@ -2,6 +2,7 @@ import React from "react";
 import QRCode from "react-qr-code";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
+
 export const Footer = () => {
   const history = useHistory();
   return (
@@ -125,25 +126,21 @@ export const Footer = () => {
                                         GYM &amp; Yoga
                                     </li>
                                 </ul> */}
-
                 <div
                   style={{
-                    // height: "auto",
-                    // margin: "0 ",
-                    marginTop : "-60%",
-                    marginLeft : "50%",
+                    height: "auto",
                     maxWidth: 200,
-                    // width: "100%",
+                    width: "100%",
+                    cursor: "pointer",
                   }}
                 >
                   <QRCode
                     size={256}
                     style={{
-                      // height: "auto",
                       maxWidth: "100%",
                       width: "100%",
                     }}
-                    value={"hello world"}
+                    value={"https://royal-user-qocr.vercel.app/"}
                     viewBox={`0 0 256 256`}
                   />
                 </div>
